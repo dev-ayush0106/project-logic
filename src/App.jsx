@@ -9,6 +9,7 @@ import LayoutComponent from './Components/LayoutComponent';
 import NoPage from './Components/NoPage';
 import Details from './Components/Details';
 import List from './Components/List';
+import Heading from './Components/Heading';
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,7 @@ const App = () => {
   return (
     <>
     <RouterProvider router={router}/>
+    <Heading/>
     </>
   )
 }
