@@ -1,0 +1,41 @@
+.main-container{
+    max-width: 1050px;
+    margin: auto;
+    padding: 10px 0px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tool-bar{
+    width:350px;
+    height: max-content;
+    background-color: yellow;
+    padding:20px 20px 20px 20px;
+    border-radius:30px;
+    position: sticky;
+    top: 10px;
+}
+
+.option{
+    padding-left:10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.optionlist{
+    display:flex;
+    justify-content:space-between
+}
+
+.optionlist input{
+    width: 60px;
+    height: 30px;
+}
+
+.check{
+    width:300px;
+    padding:20px;
+    margin:auto
+}
